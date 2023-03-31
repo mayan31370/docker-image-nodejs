@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 
 RUN npm install -g cnpm --registry=https://registry.npmmirror.com && \
     yarn config set registry https://registry.npmmirror.com
